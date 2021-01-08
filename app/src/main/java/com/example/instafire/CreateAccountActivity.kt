@@ -82,9 +82,7 @@ class CreateAccountActivity : AppCompatActivity() {
                         username,
                             email,
                             "",
-                            "",
-                            emptyList(),
-                            emptyList()
+                            ""
                     )
 
                     var usersReference = firestoreDb.collection("users")

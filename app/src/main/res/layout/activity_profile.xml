@@ -28,7 +28,7 @@
 
         <TextView
             android:id="@+id/homeText"
-            android:layout_width="279dp"
+            android:layout_width="151dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
@@ -39,9 +39,10 @@
 
         <ImageButton
             android:id="@+id/profileSettingBtn"
-            android:layout_width="73dp"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="0"
             android:backgroundTint="#73937E"
             app:srcCompat="@drawable/ic_baseline_settings_24" />
 
